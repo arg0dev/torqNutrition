@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&family=Rubik+Dirt&family=Rubik+Glitch&display=swap"
+        rel="stylesheet">
+    <title>Gold Whey Protein Kutu</title>
+    <style>
+        body {
+            background: #262727;
+            margin: 0;
+            text-align: center;
+        }
+
+        img {
+            -webkit-user-drag: none;
+            user-select: none;
+        }
+
+        h1,
+        h3,
+        h4,
+        h5 {
+
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            line-height: 70px;
+        }
+
+        h1 {
+            font-size: 82px;
+            letter-spacing: -3px;
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Rubik Glitch', cursive;
+            color: #fbe19a;
+            font-size: 76px;
+            line-height: 0;
+            transform: rotate(-3deg);
+            top: -20px;
+            position: relative;
+            font-weight: 300;
+        }
+
+        h3 {
+            font-size: 56px;
+            letter-spacing: -1px;
+            color: #b3ed44;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+            color: #fff;
+            padding-top: 1em;
+            font-size: 21px;
+        }
+
+        li {
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            list-style-type: none;
+            font-size: 21px;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        .secOne {
+            background: url('assets/materials/bgLight.png') #262727 no-repeat;
+            background-size: 125% 100%;
+            background-position: top center;
+            background-blend-mode: screen;
+            max-width: 1399px;
+            width: 100%;
+            margin: auto;
+        }
+
+        .secTwo {
+            background: #262727 no-repeat;
+            background-size: 100% 100%;
+            background-position: top center;
+            background-blend-mode: screen;
+            max-width: 1399px;
+            width: 100%;
+            margin: auto;
+            position: relative;
+        }
+
+        .secThree {
+            background: url('assets/materials/lastLight.png') #262727 no-repeat;
+            background-size: 100% 100%;
+            background-position: top center;
+            background-blend-mode: screen;
+            max-width: 1399px;
+            width: 100%;
+            margin: auto;
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            z-index: 0 !important;
+        }
+
+        .blend-screen {
+            mix-blend-mode: screen;
+        }
+
+        .oriented {
+            width: 100%;
+            max-width: 1400px;
+            z-index: 0;
+        }
+
+        .negative {
+            margin-top: -400px;
+        }
+
+        .oriented-middle {
+            width: 100%;
+            max-width: 768px;
+            margin-top: -880px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .w-100 {
+            max-width: 1399px;
+            position: relative;
+            top: -600px;
+        }
+
+        .w-75 {
+            max-width: 1000px;
+            width: 100%;
+            position: relative;
+        }
+
+        .pt-half {
+            padding-bottom: 5em;
+        }
+
+        .ImgArea {
+            position: relative;
+        }
+
+        .description {
+            padding-top: 10em;
+            padding-bottom: 6em;
+            margin: auto;
+            max-width: 1000px;
+            z-index: 2 !important;
+            position: relative;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        .secOne .description p {
+            margin-top: 60px;
+        }
+
+        @media only screen and (max-width: 1200px) {
+
+
+
+            h1 {
+                font-size: 56px;
+            }
+
+            h2 {
+                font-size: 48px;
+            }
+
+            h3 {
+                font-size: 32px;
+                line-height: 16px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            li {
+                font-size: 18px;
+            }
+
+            .description {
+                padding: 6em 1em 5em 1em;
+                max-width: 768px;
+            }
+
+            .oriented-middle {
+                max-width: 720px;
+            }
+
+            .w-100 {
+                max-width: 1399px;
+                top: -400px;
+            }
+
+            .w-75 {
+                max-width: 700px;
+            }
+        }
+
+
+        @media only screen and (max-width: 998px) {
+
+
+
+            h1 {
+                font-size: 56px;
+            }
+
+            h2 {
+                font-size: 48px;
+            }
+
+            h3 {
+                font-size: 32px;
+                line-height: 16px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            li {
+                font-size: 18px;
+            }
+
+            .description {
+                padding: 6em 1em 5em 1em;
+                max-width: 768px;
+            }
+
+            .oriented-middle {
+                max-width: 600px;
+            }
+
+            .w-100 {
+                max-width: 1399px;
+                top: -200px;
+            }
+
+            .negative {
+                margin-top: -200px;
+            }
+
+            .w-75 {
+                max-width: 700px;
+            }
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+                line-height: 56px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            h3 {
+                font-size: 21px;
+                line-height: 0px;
+            }
+
+            p {
+                font-size: 14px;
+                padding-bottom: 0px;
+            }
+
+            li {
+                font-size: 14px;
+            }
+
+            .description {
+                padding: 6em 1em 4em 1em;
+                max-width: 600px;
+            }
+
+            .oriented-middle {
+                max-width: 400px;
+                margin-top: -350px;
+            }
+
+            .firstBox {
+                padding-bottom: 2em;
+            }
+
+            .w-100 {
+                max-width: 767px;
+                top: -200px;
+            }
+
+            .w-75 {
+                max-width: 350px;
+            }
+
+            .w-75 {
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="secOne">
+
+        <img src="assets/materials/top.png" class="oriented absolute">
+
+        <div class="description">
+            <h3>Torq Nutrition</h3>
+            <h1>GOLD %100 WHEY Protein</h1>
+            <h2>Nedir?</h2>
+            <p>
+                <strong>Torq Nutrition Gold %100 Whey Protein</strong>, İzole ve Konsantre Whey proteini içerir
+                antrenman öncesi ve
+                sonrası için uygun bir üründür. Hızlı emilime sahip olan İzole ve Konsantre Whey protein içeriği ile
+                diğer protein türlerine göre kasların protein ihtiyacını normalden daha hızlı bir şekilde karşılamaya
+                yardımcı olur.
+            </p>
+        </div>
+        <div class="ImgArea">
+            <img src="assets/materials/secOne.png" class="oriented">
+            <img src="assets/materials/box.png" class="oriented-middle firstBox">
+        </div>
+    </section>
+
+    <section class="secTwo">
+
+        <img src="assets/materials/bgLightTwo.png" class="oriented absolute blend-screen">
+
+        <div class="description">
+            <h3>Torq Nutrition</h3>
+            <h1>GOLD %100 WHEY Protein</h1>
+            <h2>Özellikleri</h2>
+            <p>
+                <li> İzole ve Konsantre Whey protein içeriği</li>
+                <li> 1 Servisinde 24,40 gram protein içerir</li>
+                <li> 5.1 gram BCAA amino asit içeriği</li>
+                <li> 0.8 mg B6 vitamini içeriği</li>
+                <li> Düşük şeker ve yağ oranı</li>
+                <li> Tatlandırıcı kaynağı sukralozdur, aspartam içermez</li>
+                <li> Avrupa standartlarında ve GMP sertifikalı modern tesislerde üretim</li>
+                <li> İzole ve Konsantre Whey protein içeriği</li>
+            </p>
+        </div>
+        <div class="ImgArea">
+            <img src="assets/materials/secTwo.png" class="oriented negative">
+            <img src="assets/materials/product.png" class="oriented-middle w-100">
+        </div>
+    </section>
+
+    <section class="secThree">
+
+        <div class="description">
+            <h3>Torq Nutrition</h3>
+            <h1>GOLD %100 WHEY Protein</h1>
+            <h2>Nasıl Kullanılır?</h2>
+            <p>
+                <strong>Orta Seviye:</strong>
+                Antrenmanlardan hemen sonra <strong>1 porsiyon (35 g – 2 ölçek)</strong> ürünü
+                su veya süt ile karıştırarak tüketiniz.<br /><br />
+
+                <strong>İleri seviye:</strong>
+                Antrenmanlardan 30 dk önce ve hemen sonra <strong>1 porsiyon
+                    (35 g – 2 ölçek)</strong> ürünü su veya süt ile karıştırarak tüketiniz.
+            </p>
+        </div>
+        <div class="ImgArea">
+            <img src="assets/materials/badges.png" class="oriented w-75 pt-half">
+        </div>
+    </section>
+</body>
+
+</html>
